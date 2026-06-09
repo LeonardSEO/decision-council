@@ -43,7 +43,7 @@ For High scrutiny: use tools, retrieval, or web research before deliberation. On
 See `references/personas.md` for full persona instructions.
 
 **Five voting advisors:**
-1. **Domain Specialist** — dynamically chosen for the subject (e.g. software architect, financial analyst, automotive expert)
+1. **Primary Domain Specialist** — dynamically chosen for the subject (e.g. software architect, financial analyst, automotive expert)
 2. **Contextual Specialist** — fills the most critical uncovered dimension (e.g. customer advocate, security specialist, compliance expert)
 3. **Evidence Auditor** — tests source quality, logic, assumptions, and uncertainty
 4. **Red Team Analyst** — searches for failure modes, hidden costs, lock-in, and disconfirming evidence
@@ -53,7 +53,7 @@ See `references/personas.md` for full persona instructions.
 - **Problem Framer** — defines the right decision before the council convenes
 - **Chair** — aggregates, does not vote, cannot override without citing a specific factual or logical error
 
-For Light: use Domain Specialist, Red Team Analyst, Execution Pragmatist.
+For Light: use Primary Domain Specialist, Red Team Analyst, Execution Pragmatist.
 
 Use isolated subagents when available. Give every advisor the same decision brief and evidence packet. Do not expose other advisors' positions during the independent round.
 

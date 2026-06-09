@@ -9,67 +9,92 @@ Use this template for the default council output. Do not show full advisor trans
 **[One clear recommendation — a single option or verdict, not a menu]**
 
 Confidence: [X]%
-Consensus: [strong / qualified / none — provisional]
+Consensus: [Strong / Qualified / None — provisional]
 
 ---
 
-## Why
+## Decisive Reasons
 
-[The 2–4 decisive reasons that drove the recommendation. Reference specific evidence or criteria scores where available. Do not list every argument made — only the ones that actually decided the outcome.]
+1. [Reason — tied to specific evidence or criterion score]
+2. [Reason]
+3. [Reason]
 
 ---
 
-## Main trade-off
+## Weighted Result
+
+| Alternative | Weighted Score | Revised Votes | Median Confidence |
+|---|---:|---:|---:|
+| [Alternative] | [0–100] | [Count] | [0–100]% |
+
+---
+
+## Main Trade-Off
 
 [What the user gives up by choosing this option. Be specific. If the trade-off is negligible, say so.]
 
 ---
 
-## Minority view
+## Strongest Case for the Runner-Up
 
-[The strongest unresolved objection from the council. Include even when consensus is strong. Label it as a minority view, not as an equal recommendation.]
-
----
-
-## What would change the decision
-
-[The single most important counterfactual, missing fact, or assumption that — if different — would make the runner-up win. For High scrutiny: this is the required counterfactual from Step 8.]
+[Best argument for the second-place option — not dismissed, genuinely considered.]
 
 ---
 
-## First action
+## Minority Objection
 
-[One concrete next step the user can take immediately to move forward or validate the recommendation.]
-
----
-
-*Council record available on request.*
+[The strongest unresolved objection from the council. Include even when consensus is strong. Label it as a minority view, not an equal recommendation.]
 
 ---
 
-## Full council record (on request only)
+## Critical Assumption
 
-### Decision brief
+[The single assumption carrying the recommendation. If this is wrong, the decision may reverse.]
 
-[Criteria and weights used]
+---
 
-### Evidence packet
+## What Would Change the Decision
 
-[Verified facts / Inferences / Assumptions / Unknowns]
+[The single most plausible change in facts, assumptions, or criterion weights that would make the runner-up win.]
 
-### Independent memos
+---
 
-[Advisor A — Role — Recommendation — Confidence — Reasons — Risk — Disconfirming signal]
+## First Action
+
+[One concrete and reversible next step the user can take immediately.]
+
+---
+
+*Full council record available on request.*
+
+---
+
+## Full Council Record (on request only)
+
+### Decision Brief
+
+[Criteria and weights used — from Problem Framer output]
+
+### Evidence Packet
+
+[Verified facts / Supported inferences / Assumptions / Unknowns]
+
+### Independent Memos
+
+[Role — Recommendation — Confidence — Decisive Reasons — Critical Assumption — Biggest Risk — Disconfirming Signal]
 [Repeat per advisor]
 
-### Peer review scores
+### Peer Review Scores
 
-[Criterion scores per option, weighted totals]
+| Alternative | Criterion 1 | Criterion 2 | Criterion 3 | Total Weighted Score |
+|---|---:|---:|---:|---:|
+| [Alternative] | [0–5] | [0–5] | [0–5] | [0–100] |
 
-### Revised positions
+### Revised Positions
 
-[Advisor — Revised recommendation — Changed: yes/no — Reason — Remaining objection]
+[Role — Revised Recommendation — Changed: Yes/No — Reason — Remaining Objection]
+[Repeat per advisor]
 
 ### Aggregation
 
-[Vote count — Median confidence — Weighted scores — Margin — Minority objection]
+[Vote count — Median confidence — Weighted scores — Score margin — Minority objection — Decisive assumption]
