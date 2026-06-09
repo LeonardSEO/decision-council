@@ -1,0 +1,55 @@
+[
+  {
+    "id": "vendor-selection",
+    "description": "Classic multi-criteria vendor choice",
+    "query": "We need to choose between three CRM systems: Salesforce, HubSpot, and a custom build. We're a 40-person B2B SaaS company. Budget is €60k/year max. We need sales pipeline, basic marketing automation, and Slack integration. What should we choose?",
+    "expected_depth": "standard",
+    "expected_personas": ["domain_specialist", "contextual_specialist", "evidence_auditor", "red_team", "execution_pragmatist"],
+    "expected_output": "one clear recommendation with trade-off and minority view"
+  },
+  {
+    "id": "strategic-pivot",
+    "description": "High-stakes irreversible business decision",
+    "query": "We're a bootstrapped SaaS at €800k ARR. We've received a €2M acquisition offer and a €1.5M Series A term sheet. Should we sell or raise?",
+    "expected_depth": "high_scrutiny",
+    "expected_personas": ["domain_specialist", "contextual_specialist", "evidence_auditor", "red_team", "execution_pragmatist"],
+    "expected_output": "recommendation with counterfactual and explicit unresolved uncertainty"
+  },
+  {
+    "id": "quick-reversible",
+    "description": "Low-stakes reversible choice — should use Light mode",
+    "query": "Should we use Notion or Confluence for our internal team wiki? Team of 8 engineers.",
+    "expected_depth": "light",
+    "expected_personas": ["domain_specialist", "red_team", "execution_pragmatist"],
+    "expected_output": "concise recommendation, no full transcript"
+  },
+  {
+    "id": "factual-lookup-negative",
+    "description": "Should NOT trigger council — simple factual question",
+    "query": "What is the capital of France?",
+    "expected_depth": "skip",
+    "expected_output": "direct answer, no council"
+  },
+  {
+    "id": "persona-selection",
+    "description": "Tests dynamic persona assignment",
+    "query": "Should we migrate our monolith to microservices this quarter or wait until we hit €5M ARR?",
+    "expected_depth": "standard",
+    "expected_dynamic_domain": "software_architect or equivalent",
+    "expected_dynamic_context": "commercial_strategist or equivalent"
+  },
+  {
+    "id": "no-consensus-path",
+    "description": "Genuinely split decision — should still yield one provisional recommendation",
+    "query": "Our founding team is split 2-2 on whether to launch in the US or double down on Europe first. We have €500k runway, 3 months of traction in NL, and one warm US intro.",
+    "expected_depth": "high_scrutiny",
+    "expected_output": "provisional recommendation with stated assumption, no manufactured consensus"
+  },
+  {
+    "id": "minority-view-preserved",
+    "description": "Tests that strong consensus still surfaces dissent",
+    "query": "Should we use TypeScript or JavaScript for our new Node.js backend? Team of 4, all have TS experience.",
+    "expected_depth": "light",
+    "expected_output": "recommendation includes minority view even if consensus is strong"
+  }
+]
