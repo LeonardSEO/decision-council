@@ -91,7 +91,7 @@ Two personas are assigned dynamically based on the decision domain. Three are al
 
 | Persona | Type | Role |
 |---|---|---|
-| **Domain Specialist** | Dynamic | Subject-matter expertise relevant to the decision |
+| **Primary Domain Specialist** | Dynamic | Subject-matter expertise relevant to the decision |
 | **Contextual Specialist** | Dynamic | Most critical uncovered dimension (customer, security, compliance, etc.) |
 | **Evidence Auditor** | Fixed | Tests factual support, logic, uncertainty, and unsupported claims |
 | **Red Team Analyst** | Fixed | Searches for failure modes, hidden costs, and disconfirming evidence |
@@ -113,20 +113,33 @@ Default output (no file created unless requested):
 Confidence: X%
 Consensus: strong / qualified / none
 
-## Why
-[Decisive reasons]
+## Decisive Reasons
+1. [Reason tied to evidence or criterion score]
+2. [Reason]
+3. [Reason]
 
-## Main trade-off
-[What you give up]
+## Weighted Result
+| Alternative | Weighted Score | Revised Votes | Median Confidence |
+|---|---:|---:|---:|
+| Option A | 74 | 4/5 | 78% |
 
-## Minority view
+## Main Trade-Off
+[What you give up by choosing this option]
+
+## Strongest Case for the Runner-Up
+[Best argument for the second-place option]
+
+## Minority Objection
 [Strongest unresolved objection]
 
-## What would change the decision
-[Key counterfactual or missing fact]
+## Critical Assumption
+[The assumption the recommendation depends on]
 
-## First action
-[One concrete next step]
+## What Would Change the Decision
+[Single plausible fact or weight change that flips the result]
+
+## First Action
+[One concrete and reversible next step]
 ```
 
 Full council transcript available on request.
