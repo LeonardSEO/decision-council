@@ -1,5 +1,7 @@
 # Decision Council
 
+![Decision Council](hero.png)
+
 A structured multi-persona council skill for AI coding agents that produces one defensible collective recommendation on consequential decisions.
 
 Instead of asking an AI for a single opinion, Decision Council convenes independent expert personas, runs adversarial peer review, forces revision, and synthesizes the result into one clear recommendation — with preserved dissent.
